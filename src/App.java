@@ -5,7 +5,8 @@ public class App extends sysout{
         
         float number ;
         number = calcu.div(23,25);
-        System.out.println(number);
+        print(""+number);
         print(""+calcu.sub(50,25));
+        print(""+calcu.add(50,25));
     }
 }
